@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Minicraft/Minicraft.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Minicraft/World.cs">
+    <Files>
+      <File FileName="Minicraft/Program.cs" Line="11" Column="13" />
+      <File FileName="Minicraft/Block.cs" Line="19" Column="13" />
+      <File FileName="Minicraft/World.cs" Line="3" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
