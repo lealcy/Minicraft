@@ -1,0 +1,5 @@
+/home/lealcy/Dev/Minicraft/Minicraft/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lealcy/Dev/Minicraft/Minicraft/bin/Release/Minicraft.exe.mdb
+/home/lealcy/Dev/Minicraft/Minicraft/bin/Release/Minicraft.exe
+/home/lealcy/Dev/Minicraft/Minicraft/obj/x86/Release/Minicraft.exe
+/home/lealcy/Dev/Minicraft/Minicraft/obj/x86/Release/Minicraft.exe.mdb

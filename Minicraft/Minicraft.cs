@@ -13,7 +13,7 @@ namespace Minicraft
         public int CameraY;
         public Stopwatch Stopwatch;
         public int DeltaTimeMS = 0;
-        public int UpdateSpeed = 50; // Millisconds
+        public int UpdateSpeed = 100; // Millisconds
         private int elapsedTimeBetweenUpdates = 0;
         public int UpdateCount = 0;
         private int drawCount = 0;
@@ -76,9 +76,38 @@ namespace Minicraft
             }
         }
 
+        public Block GetBlock(int x, int y) {
+            if (x >= 0 && x < Width && y >= 0 && y < Height) {
+                return Blocks [x] [y];
+            }
+            return new BedRockBlock ();
+        }
+
+        public void MoveUp(int x, int y) {
+            if (y > 0 && Blocks[x][y - 1].Solid == false) {
+                Blocks [x] [y - 1] = Blocks [x] [y];
+                Blocks [x] [y] = new Block ();
+            }
+        }
+
+        public void MoveRight(int x, int y) {
+            if (x < Height - 1 && Blocks[x + 1][y].Solid == false) {
+                Blocks [x + 1] [y] = Blocks [x] [y];
+                Blocks [x] [y] = new Block ();
+            }
+        }
+
         public void MoveDown(int x, int y) {
             if (y < Width - 1 && Blocks[x][y + 1].Solid == false) {
                 Blocks [x] [y + 1] = Blocks [x] [y];
+                Blocks [x] [y] = new Block ();
+            }
+        
+        }
+
+        public void MoveLeft(int x, int y) {
+            if (x > 0 && Blocks[x - 1][y].Solid == false) {
+                Blocks [x - 1] [y] = Blocks [x] [y];
                 Blocks [x] [y] = new Block ();
             }
         }

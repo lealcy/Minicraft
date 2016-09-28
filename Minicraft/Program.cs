@@ -10,7 +10,7 @@ namespace Minicraft
             for (int i = 20; i < 50; i++) {
                 mc.Blocks [i] [20] = new DirtBlock ();
             }
-            mc.Blocks [30] [6] = new SandBlock ();
+            mc.Blocks [30] [6] = new PlayerUnit ();
             mc.Blocks [30] [5] = new SandBlock ();
             mc.Blocks [31] [6] = new SandBlock ();
             mc.Blocks [31] [5] = new SandBlock ();

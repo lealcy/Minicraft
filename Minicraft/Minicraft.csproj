@@ -39,6 +39,9 @@
     <Compile Include="Minicraft.cs" />
     <Compile Include="DirtBlock.cs" />
     <Compile Include="SandBlock.cs" />
+    <Compile Include="UnitBlock.cs" />
+    <Compile Include="PlayerUnit.cs" />
+    <Compile Include="BedRockBlock.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

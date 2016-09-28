@@ -26,7 +26,7 @@ namespace Minicraft
         public virtual void Draw(int x, int y) {
             Console.SetCursorPosition (x, y);
             Console.BackgroundColor = Color;
-            Console.WriteLine (' ');
+            Console.WriteLine (" ");
         }
     }
 }
